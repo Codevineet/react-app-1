@@ -1,0 +1,38 @@
+@import "Colors";
+
+nav{
+    width: 100%;
+    padding:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top:0%;
+    background-color: $first;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 10;
+
+    > h1 {
+        text-transform: uppercase;
+    }
+
+
+    > main{
+        display: flex;
+        justify-content: space-around;
+        width:50%;
+
+        > a {
+            color: $second;
+            font-size: 1.1rem;
+            margin:1rem;
+            border-radius: 10px;
+            
+            &:hover{
+                color: $third;
+            }
+        }
+    }
+}
+
+
